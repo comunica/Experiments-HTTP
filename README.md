@@ -1,6 +1,6 @@
 # Comunica HTTP Actors Experiment
 
-This is an experiment to compare the performance of the different HTTP actors within [Comunica](https://github.com/comunica/comunica).
+This is an experiment to compare the performance of the different HTTP actors within [Comunica](https://github.com/comunica/comunica) over a [Triple Pattern Fragments server](https://github.com/LinkedDataFragments/Server.js/).
 
 This experiment was created with [jbr](https://github.com/rubensworks/jbr.js).
 
