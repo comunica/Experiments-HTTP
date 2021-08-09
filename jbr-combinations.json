@@ -1,0 +1,14 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/jbr/^0.0.0/components/context.jsonld"
+  ],
+  "@id": "urn:jrb:http-actors-combinations",
+  "@type": "FullFactorialCombinationProvider",
+  "commonGenerated": true,
+  "factors": {
+    "configClient": [
+      "input/config-client-http-native.json",
+      "input/config-client-http-node-fetch.json"
+    ]
+  }
+}

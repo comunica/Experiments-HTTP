@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "http-actors",
+  "dependencies": {
+    "@jbr-experiment/watdiv": "0.0.2-alpha.19d437d.0",
+    "@jbr-hook/sparql-endpoint-comunica": "0.0.2-alpha.19d437d.0",
+    "@jbr-hook/sparql-endpoint-ldf": "0.0.2-alpha.19d437d.0",
+    "jbr": "0.0.2-alpha.19d437d.0"
+  },
+  "scripts": {
+    "jbr": "jbr",
+    "validate": "jbr validate"
+  }
+}
