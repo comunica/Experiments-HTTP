@@ -5,7 +5,7 @@
     "https://linkedsoftwaredependencies.org/bundles/npm/@jbr-hook/sparql-endpoint-ldf/^0.0.0/components/context.jsonld",
     "https://linkedsoftwaredependencies.org/bundles/npm/@jbr-hook/sparql-endpoint-comunica/^0.0.0/components/context.jsonld"
   ],
-  "@id": "urn:jrb:http-actors",
+  "@id": "urn:jrb:Experiments-HTTP",
   "@type": "ExperimentWatDiv",
   "datasetScale": 100,
   "queryCount": 5,
@@ -16,7 +16,7 @@
   "queryRunnerWarmupRounds": 1,
   "queryRunnerRecordTimestamps": true,
   "hookSparqlEndpoint": {
-    "@id": "urn:jrb:http-actors:hookSparqlEndpoint",
+    "@id": "urn:jrb:Experiments-HTTP:hookSparqlEndpoint",
     "@type": "HookSparqlEndpointLdf",
     "dockerfile": "input/dockerfiles/Dockerfile-ldf-server",
     "dockerfileCache": "input/dockerfiles/Dockerfile-ldf-server-cache",
@@ -31,7 +31,7 @@
     "maxMemory": 8192,
     "dataset": "generated/dataset.hdt",
     "hookSparqlEndpointLdfEngine": {
-      "@id": "urn:jrb:http-actors:hookSparqlEndpoint_hookSparqlEndpointLdfEngine",
+      "@id": "urn:jrb:Experiments-HTTP:hookSparqlEndpoint_hookSparqlEndpointLdfEngine",
       "@type": "HookSparqlEndpointComunica",
       "dockerfileClient": "input/dockerfiles/Dockerfile-client",
       "resourceConstraints": {
