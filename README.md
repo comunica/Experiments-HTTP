@@ -4,6 +4,10 @@ This is an experiment to compare the performance of the different HTTP actors wi
 
 This experiment was created with [jbr](https://github.com/rubensworks/jbr.js).
 
+Example results:
+
+![Example output](https://raw.githubusercontent.com/comunica/Experiments-HTTP/master/example_output/plot_queries_data.svg)
+
 ## Requirements
 
 * [Node.js](https://nodejs.org/en/) _(1.12 or higher)_
